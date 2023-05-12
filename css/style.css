@@ -16,11 +16,10 @@
     grid-auto-flow: row;
     gap: 10px;
     grid-template-areas: 
-    "header header header"
-    "blog . message"
-    "blog footer footer";
+    ". . header"
+    "message message header"
+    "footer footer footer";
 }
-
 
 .grid-elem {
     background-color:  blue;
@@ -62,21 +61,3 @@
     grid-column: col4-s;
     grid-row: row1-s/row4-s;
 }
-
-/* #third {
-    grid-column: col2-s/col4-s;
-    grid-row: row2-s/row3-s;;
-} */
-
-/* #fourth {
-    grid-column: 1/4;
-    grid-row: 3/4;
-}
-
-#fifth {
-    grid-column: 2/3;
-}
-
-#sixth {
-    grid-column: 3/4;
-} */
